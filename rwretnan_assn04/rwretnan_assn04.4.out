@@ -1,0 +1,18 @@
+BLAST options error: Please provide a database name using -out
+cat: write error: Broken pipe
+BLAST Database error: No alias or index file found for nucleotide database [newdb] in search path [/scrfs/storage/rwretnan/home/test_directory/watermelon_files/mt_genomes::]
+PBS Job Statistics:
+PBS Job ID: 4779889.sched
+Resource List: neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: tiny12core
+Program Return Code: 2
+Head Node:
+compute1248
+PBS Job Statistics:
+PBS Job ID: 4779889.sched
+Resource List: neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: tiny12core
+Program Return Code: 2
+Head Node: compute1248

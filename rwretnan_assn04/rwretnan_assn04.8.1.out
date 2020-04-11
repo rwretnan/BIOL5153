@@ -1,0 +1,26 @@
+
+
+Building a new DB, current time: 03/03/2020 01:00:55
+New DB name:   /scrfs/storage/rwretnan/home/watermelon.fsa
+New DB title:  watermelon.fsa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /scrfs/storage/rwretnan/home/watermelon.fsa
+Keep MBits: T
+Maximum file size: 1000000000B
+BLAST options error: File watermelon.fsa does not exist
+Command line argument error: Argument "query". File is not accessible:  `watermelon.fsa'
+PBS Job Statistics:
+PBS Job ID: 4779893.sched
+Resource List: neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: tiny12core
+Program Return Code: 1
+Head Node:
+compute1181
+PBS Job Statistics:
+PBS Job ID: 4779893.sched
+Resource List: neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: tiny12core
+Program Return Code: 1
+Head Node: compute1181

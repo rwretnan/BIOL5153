@@ -1,0 +1,18 @@
+#! /bin/bash
+
+#PBS -N question2
+#PBS -q tiny12core
+#PBS -j oe
+#PBS -m abe
+#PBS -M rwretnan@uark.edu
+#PBS -o rwretnan_assn04.2.out
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=00:00:10:00
+
+cd $PBS_O_WORKDIR
+
+module load blast/2.6.0+
+
+cd /home/rwretnan/test_directory/watermelon_files/watermelon_nt
+
+blastn -query nad4L.fasta -db nad4Ldb.fasta
